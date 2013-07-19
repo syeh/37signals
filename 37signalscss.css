@@ -165,19 +165,19 @@ a:hover
 	position: absolute;
 	top: 325px;
 	left: 285px;
-	z-index:1;
+	
 }
 .arrow-left2{
 	position: absolute;
 	top: 320px;
 	left: 540px;
-	z-index:1;
+	
 }
 .arrow-right{
 	position: absolute;
 	top: 330px;
 	left: 640px;
-	z-index:2;
+	
 
 }
 aside{
