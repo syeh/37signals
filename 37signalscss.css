@@ -257,7 +257,7 @@ aside{
 }
 
 .hr h6{
-	font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
+font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
 font-size: 14px;
 color: #cc0000;
 margin-top: 10px;
@@ -314,8 +314,6 @@ font-weight: bold;
 }
 
 hr {
-clear: both;
-border: 0;
 background-image: url('http://37signals.com/images/img-hr.png') no-repeat scroll 50% 50%;
 color: transparent;
 height: 12px;
