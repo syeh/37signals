@@ -183,7 +183,7 @@ a:hover
 aside{
 	min-width: 1000px;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 45px;
 }
 .bc{
 	top: 45px;
@@ -196,7 +196,6 @@ aside{
 	padding: 20px;
     background:linear-gradient(#fefefe, #efefef);
 	border-radius:10px;
-	position: relative;
 
 }
 .bc img {
@@ -240,7 +239,6 @@ aside{
 	padding: 20px;
     background:linear-gradient(#fefefe, #efefef);
 	border-radius:10px;
-	position: relative;
 	text-align: center;
 }
 .hr img {
@@ -286,7 +284,6 @@ font-weight: bold;
 	padding: 14px;
     background:linear-gradient(#fefefe, #efefef);
 	border-radius:10px;
-	position: relative;
 }
 .cf img {
 	margin-bottom: 15px;
@@ -318,7 +315,11 @@ font-weight: bold;
 
 }
 
-#star {
-text-align: center;
-margin-bottom: 20px;
+hr {
+clear: both;
+border: 0;
+background-image: url('http://37signals.com/images/img-hr.png') no-repeat scroll 50% 50%;
+color: transparent;
+height: 12px;
+display: block;
 }
