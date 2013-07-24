@@ -165,19 +165,22 @@ a:hover
 	position: relative;
 	top: -75px;
 	right: -170px;
-	z-index: 1;
+	z-index: 100;
+	display:none;
 }
 .arrow-left2{
 	position: relative;
 	top: -90px;
 	right: -165px;
-	z-index: 1;
+	z-index: 100;
+	display: none;
 }
 .arrow-right{
 	position: relative;
 	top: -75px;
 	right: -5px;
-	z-index: 2;
+	z-index: 100;
+	display: none;
 
 }
 aside{
@@ -211,6 +214,10 @@ aside{
 	font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
 	color: #336699;
 
+}
+a:hover, .bc a:hover, .hr a:hover, .cf a:hover{
+	text-decoration: none;
+	
 }
 
 .bc h6{
@@ -313,10 +320,17 @@ font-weight: bold;
 	color:#222222;
 }
 
-hr {
-background-image: white url('http://37signals.com/images/img-hr.png') no-repeat scroll 50% 50%;
+.wrapper{
+background-image: url('http://37signals.com/images/img-hr.png') no-repeat top left;
 	clear: both;
-	border: 0;
+	border:none;
 	color: transparent;
 	height: 12px;
+	width: 800px;
+	float:center;
 	}
+	
+.wrapper hr{
+	display: none;
+	
+}
